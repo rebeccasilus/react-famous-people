@@ -14,7 +14,7 @@ class FamousPerson extends Component {
         return (event) => {
             this.setState({
                 famousPerson: {
-                    ...this.state.user,
+                    ...this.state.famousPerson,
                     [propertyName]: event.target.value
                 }
             })
